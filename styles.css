@@ -6,12 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f3f3f3;
+    background-color: #c7ec82;
   }
   
   .container {
     max-width: 500px; /* Increased the container width */
-    padding: 90px; /* Increased padding for better spacing */
+    padding: 40px; /* Increased padding for better spacing */
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@ body {
   h1 {
     text-align: center;
     margin-bottom: 30px; /* Increased margin for better spacing */
-    font-size: 28px; /* Increased font size for the heading */
+    font-size: 32px; /* Increased font size for the heading */
   }
   
   .input-group {
@@ -30,22 +30,22 @@ body {
   label {
     display: block;
     font-weight: bold;
-    font-size: 18px; /* Increased font size for the labels */
+    font-size: 20px; /* Increased font size for the labels */
     margin-bottom: 10px; /* Increased margin for better spacing */
   }
   
   input {
     width: 100%;
     padding: 12px; /* Increased padding for larger input fields */
-    font-size: 16px; /* Increased font size for the input fields */
+    font-size: 18px; /* Increased font size for the input fields */
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   button {
     width: 100%;
-    padding: 15px; /* Increased padding for larger button */
-    font-size: 18px; /* Increased font size for the button */
+    padding: 18px; /* Increased padding for larger button */
+    font-size: 20px; /* Increased font size for the button */
     background-color: #4CAF50;
     color: #fff;
     border: none;
@@ -58,39 +58,5 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 20px; /* Increased font size for the result */
-  }
-  
-  /* Media query for smaller screens */
-  @media (max-width: 600px) {
-    .container {
-      max-width: 90%; /* Reduce the container width on smaller screens */
-    }
-    
-    h1 {
-      font-size: 24px; /* Decrease the font size for the heading */
-    }
-  
-    label {
-      font-size: 16px; /* Decrease the font size for the labels */
-    }
-  
-    input {
-      font-size: 14px; /* Decrease the font size for the input fields */
-    }
-  
-    button {
-      font-size: 16px; /* Decrease the font size for the button */
-    }
-  
-    #result {
-      font-size: 18px; /* Decrease the font size for the result */
-    }
-  }
-  
-  /* Media query for smaller screens with a maximum height of 600px */
-  @media (max-width: 600px) and (max-height: 600px) {
-    .container {
-      max-width: 90%; /* Reduce the container width on smaller screens with limited height */
-    }
   }
   
