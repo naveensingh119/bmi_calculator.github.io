@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    max-width: 500px; /* Increased the container width */
+    padding: 100px; /* Increased padding for better spacing */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 28px; /* Increased font size for the heading */
+  }
+  
+  .input-group {
+    margin-bottom: 25px; /* Increased margin for better spacing */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px; /* Increased font size for the labels */
+    margin-bottom: 10px; /* Increased margin for better spacing */
+  }
+  
+  input {
+    width: 100%;
+    padding: 18px; /* Increased padding for larger input fields */
+    font-size: 19px; /* Increased font size for the input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 19px; /* Increased padding for larger button */
+    font-size: 19px; /* Increased font size for the button */
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 25px; /* Increased margin for better spacing */
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; /* Increased font size for the result */
+  }
+  
